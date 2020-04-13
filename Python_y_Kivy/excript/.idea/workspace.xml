@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0841e93e-c61f-40b2-aab6-cb9e31cffaa9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XejmY9rfGURMcbtsE6vYSMuGNi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Toma-de-decisiones/Ejercicios" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\devaux\excript\app-comerciais-kivy\aulas\Estrucutra-de-Datos-Lista-y-Tupla\Clase-Lsita-I" />
+      <recent name="C:\devaux\excript\app-comerciais-kivy\aulas\Toma-de-decisiones\Toma-de-desicionII" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\devaux\excript\app-comerciais-kivy\aulas\Toma-de-decisiones\Ejercicios" />
+      <recent name="C:\devaux\excript\app-comerciais-kivy\aulas\Toma-de-decisiones" />
+      <recent name="C:\devaux\excript\app-comerciais-kivy\aulas\Toma-de-decisiones\Operadores-Relacionales-Compuestos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.IM_I">
+    <configuration name="ATS_I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="excript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Ambito-y-Tablas-de-Simbolos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Ambito-y-Tablas-de-Simbolos/ATS_I.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BSC_I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="excript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Bloques-sin-codigos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Bloques-sin-codigos/BSC_I.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IG_I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="excript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Instruccion-Global" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Instruccion-Global/IG_I.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IM_I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="excript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Importando-Modulos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Importando-Modulos/IM_I.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="INL_I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="excript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Instruccion-Nonlocal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Instruccion-Nonlocal/INL_I.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.IM_I" />
+        <item itemvalue="Python.ATS_I" />
+        <item itemvalue="Python.IG_I" />
+        <item itemvalue="Python.BSC_I" />
+        <item itemvalue="Python.INL_I" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0841e93e-c61f-40b2-aab6-cb9e31cffaa9" name="Default Changelist" comment="" />
+      <created>1581413613478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581413613478</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="430" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581664477031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581664477031" />
+    <state x="1097" y="267" key="#xdebugger.evaluate" timestamp="1584529818192">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="1097" y="267" key="#xdebugger.evaluate/0.0.1600.860@0.0.1600.860" timestamp="1584529818192" />
+    <state x="1212" y="226" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1584476327447" />
+    <state width="805" height="265" key="GridCell.Tab.0.bottom" timestamp="1584561018023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584529767540" />
+    <state width="805" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018023" />
+    <state width="805" height="265" key="GridCell.Tab.0.center" timestamp="1584561018023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584529767539" />
+    <state width="805" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018023" />
+    <state width="805" height="265" key="GridCell.Tab.0.left" timestamp="1584561018023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584529767539" />
+    <state width="805" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018023" />
+    <state width="805" height="265" key="GridCell.Tab.0.right" timestamp="1584561018023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584529767539" />
+    <state width="805" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018023" />
+    <state width="805" height="265" key="GridCell.Tab.1.bottom" timestamp="1584561018024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584529771661" />
+    <state width="805" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018024" />
+    <state width="805" height="265" key="GridCell.Tab.1.center" timestamp="1584561018024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1584529771660" />
+    <state width="805" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018024" />
+    <state width="805" height="265" key="GridCell.Tab.1.left" timestamp="1584561018024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1584529771660" />
+    <state width="805" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018024" />
+    <state width="805" height="265" key="GridCell.Tab.1.right" timestamp="1584561018024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="679" height="265" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1584529771660" />
+    <state width="805" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584561018024" />
+    <state x="656" y="203" key="SettingsEditor" timestamp="1581414731867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581414731867" />
+    <state x="930" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1585808581064">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="930" y="261" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585808581064" />
+    <state x="1116" y="316" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584470605151" />
+    <state x="371" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584513621967">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="371" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1584513621967" />
+    <state x="613" y="355" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1584476114917" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Funciones-Anidadas/FA_I.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app-comerciais-kivy/aulas/Funciones/Funciones-Anidadas/FA_I.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Ambito-y-Tablas-de-Simbolos/ATS_I.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Ambito-y-Tablas-de-Simbolos/ATS_I.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Ambito-y-Tablas-de-Simbolos/ATS_I.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app-comerciais-kivy/aulas/Modulos/Importando-Modulos/IM_I.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

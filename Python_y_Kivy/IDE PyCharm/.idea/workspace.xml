@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b82fb08e-bd33-4fbb-b2af-7c50ae3d99d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1W6ZhGJQ4dVJqWmy12R1aD8TT3M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b82fb08e-bd33-4fbb-b2af-7c50ae3d99d8" name="Default Changelist" comment="" />
+      <created>1578472121690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578472121690</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1051" y="257" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1578477481765">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1051" y="257" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578477481765" />
+    <state x="862" y="218" key="SettingsEditor" timestamp="1578480741432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="862" y="218" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578480741432" />
+    <state x="1103" y="481" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1578477489328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="481" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578477489328" />
+    <state x="503" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1581405745956">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="503" y="210" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581405745956" />
+    <state x="603" y="254" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579995215159" />
+    <state x="762" y="303" key="search.everywhere.popup" timestamp="1578472740069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="762" y="303" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578472740069" />
+  </component>
+</project>
