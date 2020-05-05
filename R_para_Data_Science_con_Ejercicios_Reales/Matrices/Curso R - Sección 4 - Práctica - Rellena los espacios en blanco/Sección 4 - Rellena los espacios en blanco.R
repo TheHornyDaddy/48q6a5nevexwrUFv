@@ -51,6 +51,7 @@ mi_funcion(tiros_anotados/tiros_intentados)
 
 #Parte 3 - Estilo de juego del jugador sin contabilizar tiros libres
 mi_funcion((puntos - tiros_libres)/tiros_anotados)
+mi_funcion(round((puntos - tiros_libres)/tiros_anotados))
 #Debido a que hemos exluidos los tiros libres, esta gr?fica 
 #ahora nos muestra la representaci?n m?s acertada de c?mo ha 
 #ido cambiando el estilo de los jugadores. Podemos verificarlo 
@@ -75,7 +76,4 @@ mi_funcion((puntos - tiros_libres)/tiros_anotados)
 #   pegado a ella. Pero lo tiros libre requieren que el
 #   el jugador est? a 15ft. separado de la canasta. 
 #   Probablemente por eso la precisi?n de Dwight Howard 
-#   en los tiros libre es tan baja. 
-
-
-
+#   en los tiros libre es tan baja.

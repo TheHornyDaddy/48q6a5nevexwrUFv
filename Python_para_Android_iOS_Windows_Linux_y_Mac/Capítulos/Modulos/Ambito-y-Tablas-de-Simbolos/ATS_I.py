@@ -1,10 +1,9 @@
-# El nivel cero se define en el punto donde no hay identaciÃ³n
+# El nivel cero se define en el punto donde no hay identación
 # Ejemplo: a
 
 def func():
     f1="test"
     print(_name_)
-
 a=0
 
 print(varx)

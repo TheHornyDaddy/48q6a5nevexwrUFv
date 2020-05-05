@@ -1,129 +1,134 @@
 
 #Importa los datos
 getwd()
-setwd("_")
+setwd("C:\\Git\\R_para_Data_Science_con_Ejercicios_Reales\\Visualizaciones Avanzadas GGPlot2")
 getwd()
-peliculas <- read.csv("Curso R - Sección 6 - Datos Práctica.csv")
+peliculas <- read.csv("Curso R - SecciÃ³n 6 - Datos PrÃ¡ctica.csv")
 
-#Análisis Exploratorio
+#AnÃ¡lisis Exploratorio
 
-_(peliculas) #filas superiores
-_(peliculas) #resumen de las columnas
-_(peliculas) #estructura del set de datos
+head(peliculas) #filas superiores
+summary(peliculas) #resumen de las columnas
+str(peliculas) #estructura del set de datos
 
 #Activar GGPlot2
 #Usar install.package("ggplot2") en caso de no tener el paquete descargado
-library(_)
+library(ggplot2)
 
 #Fuera de alcance pero esta interesante: 
-ggplot(data=peliculas, aes(x=Día.de.la.Semana..lanzamiento.)) + geom_bar()
-#¿Te das cuenta? No ha habido estrenos de películas en un Lunes. 
+ggplot(data=peliculas, aes(x=DÃ­a.de.la.Semana..lanzamiento.)) + geom_bar()
+#?Te das cuenta? No ha habido estrenos de pel?culas en un Lunes. 
 
-#Ahora vamos a filtrar nuestro set de datos para dejar únicamente
-#los Géneros y los Estudios en los que estamos interesados
-#Empezaremos con el filtro de Género. Usaremos el operador lógico 
-#"or" para seleccionar múltiples Géneros:
-filtro1 <- (peliculas$Género == "acción") | (peliculas$Género == "aventura") | (peliculas$Género == "animación") | (peliculas$Género == "comedia") | (peliculas$Género == "drama")
+#Ahora vamos a filtrar nuestro set de datos para dejar Ãºnicamente
+#los G?neros y los Estudios en los que estamos interesados
+#Empezaremos con el filtro de GÃ©nero. Usaremos el operador lÃ³gico 
+#"or" para seleccionar m?ltiples G?neros:
+filtro1 <- (peliculas$GÃ©nero == "acciÃ³n") | (peliculas$GÃ©nero == "aventura") | (peliculas$GÃ©nero == "animaci?n") | (peliculas$GÃ©nero == "comedia") | (peliculas$GÃ©nero == "drama")
 
 #Ahora hagamos lo mismo para los Estudios:
-filtro2 <- (_ == "Buena Vista Studios") | (_ _ "WB") | (_ _ "Fox") _ (_ _ "Universal") _ (_ _ "Sony") _ (_ _ "Paramount Pictures")
-  
-#Aplica los filtros de las filas al marco de datos
-peliculas2 <- peliculas[_ & _,]
+filtro2 <- (peliculas$Estudio == "Buena Vista Studios") | (peliculas$Estudio == "WB") | (peliculas$Estudio == "Fox") | (peliculas$Estudio == "Universal") | (peliculas$Estudio == "Sony") | (peliculas$Estudio == "Paramount Pictures")
+# Alternatica con el operador %in%:
+# filtro2 <- peliculas$Estudio %in% c("Buena Vista Studios","WB","Fox","Universal","Sony","Paramount Pictures")
+filtro1
+filtro2
 
-#Prepara los datos del gráfico y las capas de estéticas
+#Aplica los filtros de las filas al marco de datos
+peliculas2 <- peliculas[filtro1 & filtro2,]
+
+#Prepara los datos del grÃ¡fico y las capas de estÃ©ticas
 #Nota que no le cambiamos el nombre a las columnas
 #Usa str() o summary() para encontrar el nombre correcto de las columnas
-p <- ggplot(data=_, aes(x=_, y=_))
-p #No pasa nada porque se necesita una geometría
+p <- ggplot(data=peliculas2, aes(x=GÃ©nero, y=Venta...USA))
+p #No pasa nada porque se necesita una geometr?a
 
-#Agrega una capa con geometría de puntos
+#Agrega una capa con geometr?a de puntos
 p + 
-  _()
+  geom_point()
 
 #Puedes agregar un boxplot en lugar de los puntos
 p + 
-  _()
+  geom_boxplot()
 
-#Nota que los valores atípicos son parte de la capa del boxplot
-#Usaremos esa observación después (*)
+#Nota que los valores at?picos son parte de la capa del boxplot
+#Usaremos esa observaci?n despu?s (*)
 
 #Agrega los puntos
 p + 
-  geom_boxplot() + 
-  _()
-#No es exactamente lo que estábamos buscando
+  geom_boxplot() +
+  geom_point()
+#No es exactamente lo que est?bamos buscando
 
 #Cambia los puntos por el jitter
 p + 
   geom_boxplot() + 
-  _()
+  geom_jitter()
 
 #Posiciona el boxplot por encima del jitter
 p + 
-  _() + 
-  _() 
+  geom_jitter() + 
+  geom_boxplot() 
 
 #Agrega transparencia al boxplot
 p + 
-  _() + 
-  _(alpha=0.7) 
+  geom_jitter() + 
+  geom_boxplot(alpha=0.7) 
 
-#Ahora puedes agregar tamaño y color a los puntos:
+#Ahora puedes agregar tama?o y color a los puntos:
 p + 
-  _(aes(_=Presupuesto...mill., _=Estudio)) + 
-  _(_=0.7) 
-#¿Puedes ver los puntos negros que aún están visibles?
-#¿De dónde vienen?
-#Son parte del boxplot - ¿Recuerdas la observación (*) que hicimos arriba?
+  geom_jitter(aes(size=Presupuesto...mill., color=Estudio)) + 
+  geom_boxplot(alpha=0.7) 
+#?Puedes ver los puntos negros que a?n est?n visibles?
+#?De d?nde vienen?
+#Son parte del boxplot - Â¿Recuerdas la observaciÃ³n (*) que hicimos arriba?
 
 #Vamos a quitarlos:
 p + 
-  _(aes(_=Presupuesto...mill., _=Estudio)) + 
-  _(_ = 0.7, outlier.colour = NA) 
+  plot(aes(size=Presupuesto...mill., color=Estudio)) + 
+  geom_boxplot(alpha = 0.7, outlier.colour = NA) 
+# Esos puntos pertenecÃ­an a los valores atÃ­picos.
 
 #Almacenamos nuestro progreso en un nuevo objeto: 
 q <- p + 
-  _(aes(_=Presupuesto...mill., _=Estudio)) + 
-  _(_ = 0.7, outlier.colour = NA) 
+  geom_jitter(aes(size=Presupuesto...mill., color=Estudio)) + 
+  geom_boxplot(alpha = 0.7, outlier.colour = NA) 
 q
 
 #Elementos que no son datos (non-data ink)
 q <- q +
-  _("Género") + #título del eje x
-  _("% Ventas USA") + #título del eje y
-  _("Domestic Gross % by Genre") #título del diagrama
+  xlab("GÃ©nero") + #tÃ­tulo del eje x
+  ylab("% Ventas USA") + #tÃ­tulo del eje y
+  ggtitle("% Ventas por GÃ©nero") #tÃ­tulo del diagrama
 q
 
 #TIP: para la siguiente parte puedes usar ?theme si necesitas
-#acordarte qué parámetros son responsables de qué 
+#acordarte quÃ© parÃ¡metros son responsables de quÃ©. 
 
 #Tema
 q <- q + 
   theme(
-    #Título de los ejes:
-    _ = element_text(color="Blue", size=20),
-    _ = element_text(color="Blue", size=20),
+    #TÃ­tulo de los ejes:
+    axis.title.x = element_text(color="Blue", size=20),
+    axis.title.y = element_text(color="Blue", size=20),
     
     #Texto de los ejes:
-    _ = element_text(size=15),
-    _ = element_text(size=15),  
+    axis.text.x = element_text(size=15),
+    axis.text.y = element_text(size=15),  
     
-    #Título del gráfico:
-    _ = element_text(color="Black",
+    #T?tulo del gr?fico:
+    plot.title = element_text(color="Black",
                               size=25, 
                               hjust = 0.5),
     
-    #Título de la Leyenda:
-    _ = element_text(size=15),
+    #T?tulo de la Leyenda:
+    legend.title = element_text(size=15),
     
     #Texto de la Leyenda
-    _ = element_text(size=10)
+    legend.text = element_text(size=10)
   )
 q
 
-#Toque Final. Esto no lo habíamos visto durante el curso
-#Pero de esta manera puedes cambiar individualmente el título de tu leyenda
+#Toque Final. Esto no lo habÃ­amos visto durante el curso
+#Pero de esta manera puedes cambiar individualmente el tÃ­tulo de tu leyenda
 q$labels$size = "Presupuesto $M"
 q
 
