@@ -18,7 +18,6 @@ ALTER TABLE customers
 ADD COLUMN gender ENUM('M','F') AFTER last_name;
 
 # Insetaremos un renglón de datos
-
 INSERT INTO customers(first_name, last_name,gender,
 email_address, number_of_complaints)
 

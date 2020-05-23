@@ -43,11 +43,3 @@ PRIMARY KEY(customer_id)
 );
 ALTER TABLE customers
 CHANGE COLUMN number_of_complaints number_of_complaints INT DEFAULT 0;
-
-/* Para borrar una llave única escribimos lo siguiente
-ALTER TABLE table_name
-DROP INDEX unique_key_field;
-*/
-
-ALTER TABLE customers
-DROP INDEX email_address;

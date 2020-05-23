@@ -14,13 +14,33 @@ INSERT Statement – Part II’, where you have to insert information about empl
 */
 use employees;
 
-
 SELECT 
     *
 FROM
-    tittle
+    titles
 LIMIT 10;
 
+/* Como emp_no es una FOREIGN KEY en titles, tenemos que crear primero
+el nuevo empleado en la tambla employees.
+*/
+
+insert into employees
+(
+	emp_no,
+    birth_date,
+    first_name,
+    last_name,
+    gender,
+    hire_date
+) values
+(
+	999903,
+    '1978-01-09',
+    'Tony',
+    'Montellano',
+    'M',
+    '1997-01-01'
+);
 
 insert into titles
 (
@@ -33,3 +53,18 @@ insert into titles
     'Senior Engineer',
     '1997-10-01'
 );
+
+SELECT 
+    *
+FROM
+    titles
+ORDER BY emp_no DESC;
+
+/* Por curiosidad, veamos la tabla de empleados de acuerdo
+a emp_no en orden descendente.
+*/
+SELECT 
+    *
+FROM
+    employees
+ORDER BY emp_no DESC;

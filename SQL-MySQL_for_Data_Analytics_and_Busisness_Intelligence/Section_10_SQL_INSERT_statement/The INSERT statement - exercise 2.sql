@@ -44,6 +44,13 @@ insert into dept_emp
 SELECT
     *
 FROM
+    employees
+ORDER BY emp_no DESC
+LIMIT 10;
+
+SELECT
+    *
+FROM
     dept_emp
 ORDER BY emp_no DESC
 LIMIT 10;
