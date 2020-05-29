@@ -276,3 +276,23 @@ WHERE
 ROLLBACK;
 
 # End.
+
+
+/*
+As a general principle, or rule of thumb, you can remember it in the following way, regardless of whether we are talking about an INSERT, DELETE, 
+UPDATE statement.
+
+A "BEFORE" trigger would work like this.
+1) You write your statement
+2) You click to execute it
+3) The BEFORE trigger is applied
+4) The operation in the query complying with the BEFORE trigger is executed/applied
+5) You can often check what you've done with a SELECT statement)
+
+An "AFTER" trigger would work like this.
+1) You write your statement
+2) You click to execute it
+3) The operation in the query is executed
+4) The AFTER trigger is applied
+5) You can often check what you've done with a SELECT statement
+*/

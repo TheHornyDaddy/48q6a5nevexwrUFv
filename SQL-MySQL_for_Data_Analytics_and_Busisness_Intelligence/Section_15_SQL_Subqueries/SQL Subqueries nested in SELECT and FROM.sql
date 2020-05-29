@@ -44,5 +44,6 @@ FROM
     /* We take the minimum value because more than one department
     ould be associated with an employee and by using men we will
     ensure we place only one value corresponding to an employee
-    number.
+    number. If we don't use it, all the rows from the dept_manager
+    will be included in the output.
     */

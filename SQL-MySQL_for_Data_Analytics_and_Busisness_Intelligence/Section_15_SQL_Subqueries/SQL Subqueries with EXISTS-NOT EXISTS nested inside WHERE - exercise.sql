@@ -7,7 +7,7 @@ SELECT
 FROM
     employees e
 WHERE
-    EXISTS( SELECT 
+    EXISTS(SELECT 
             *
         FROM
             titles t
